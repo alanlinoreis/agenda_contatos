@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignora arquivos gerados do Flutter na estatística de linguagens
+*.cmake linguist-generated=true
+*.c linguist-generated=true
+CMakeLists.txt linguist-generated=true
+windows/** linguist-generated=true
+linux/** linguist-generated=true
+ios/** linguist-generated=true
+android/** linguist-generated=true
+web/** linguist-generated=true
