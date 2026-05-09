@@ -1,19 +1,38 @@
-# Agenda de Contatos
+# 📒 Agenda de Contatos
 
-Uma aplicação Flutter para gerenciar contatos com funcionalidades modernas.
+Aplicativo de agenda de contatos desenvolvido em Flutter como projeto de estudo.
 
-A new Flutter project.
+## Funcionalidades
 
-## Getting Started
+- Listagem de contatos
+- Adicionar novos contatos
+- Marcar/desmarcar contatos como favoritos
+- Visualizar detalhes de um contato
+- Buscar contatos pelo nome
+- Reordenar contatos via drag and drop
 
-This project is a starting point for a Flutter application.
+## Tecnologias
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/)
+- Dart
+- Dados mockados via repositório local
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Como executar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+# Clone o repositório
+git clone https://github.com/alanlinoreis/agenda_contatos.git
+
+# Acesse a pasta
+cd agenda_contatos
+
+# Instale as dependências
+flutter pub get
+
+# Execute o app
+flutter run
+```
+
+## Licença
+
+MIT
